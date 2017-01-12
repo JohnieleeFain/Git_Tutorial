@@ -1,0 +1,44 @@
+<html>
+  <head>
+  </head>
+  <body>
+    <h1>The Basics: Code Challenge 1</h1>
+    <script>
+
+    var greetings = ["Hola!", "Bonjour!", "Guten Tag!", "Ciao!", "Namaste!", "Kon'nichiwa!", "Nǐ  hǎo!",  "Hallo!", "What's Happening!"];
+    x = Math.floor((Math.random())*8);
+    document.write(greetings[x],"</br>" );
+
+
+    var today = new Date();
+    document.write(today, "</br>");
+
+
+    var x = today.getDate();
+    var y = x%2; //gives the remainder of 1-31 divided by 2
+    var z = ["Even", "Odd"]; // if remainder is 0 its an even date, if its 1 its odd
+    document.write(z[y] + "</br>");
+
+    var graduation = new Date("June 8, 2017");
+    var minutes = Math.floor((graduation.getTime()- today.getTime())/60000);
+    var hours = (minutes/60);
+    var days = (hours/24);
+    document.write("The class of 2017's Graduation is in..." + "</br>");
+    document.write(Math.floor(days) +"       Days" + "</br>");
+    document.write(Math.floor(hours) +"      Hours and" + "</br>");
+    document.write(Math.floor(minutes) +"    Minutes!!!" + "</br>");
+
+    var str = "SAN RAFAEL HIGH SCHOOL-185 MISSION AVE-SAN RAFAEL CA 94901";
+    var word1 = str.slice(0, 22);
+    var word2 = str.slice(23, 38)
+    var word3 = str.slice(39, 58)
+    document.write(word1, "</br>");
+    document.write(word2, "</br>");
+    document.write(word3, "</br>");
+
+
+
+
+    </script>
+  </body>
+</html>

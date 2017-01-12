@@ -1,0 +1,25 @@
+
+h1 {
+    color: orangered;
+    background-color: aliceblue;
+    border: 1px solid black;
+}
+
+h2 {
+    color: coral;
+    background-color: aliceblue;
+}
+
+h3 {
+    color: orchid;
+    background-color: aliceblue;
+}
+
+p {
+    color: dodgerblue;
+}
+
+body {
+    font-family: fantasy;
+    background-color: azure
+}

@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <script language="javascript" type="text/javascript" src="loops.js"></script>
+</head>
+
+<body>
+
+    <head>LOOPS CODE CHALLENGE</head>
+    <p>Johnie lee Fain - Hilary Salvas</p>
+    <hr/>
+    <h2>Are these valid CA zip codes?</h2>
+    <script>
+        //#1
+        var codes = ["94901", "94954", " 95658", "84955", "9&467", "9413", "95518"];
+        document.write("The valid CA zip codes are: ", checkZipList(codes));
+    </script>
+    <hr/>
+    <h2>Are These valid home phone numbers?</h2>
+    <script>
+        //#2
+        var phoneNum = ["415-638-7849", "412-8145", "68-01035", "7859021", "781-1168"];
+        document.write("The valid phone numbers are: ", validPhoneList(phoneNum));
+    </script>
+    <hr/>
+    <h2>Is this a prime number?</h2>
+    <script>
+        //#3
+        var number = 3 //15485863 (millionth prime), 111547 (composite)
+        document.write(displayPrimeTest(number));
+    </script>
+    <hr/>
+    <h2>Are these numbers shuffled? </h2>
+    <script>
+        //#4
+        var arr = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+        document.write(arr, "<br>")
+        document.write(shuffle(arr));
+    </script>
+</body>
+
+</html>
